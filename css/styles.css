@@ -133,6 +133,10 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
   background-color: #2e2f42;
+  width: 496px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-hero-button {
