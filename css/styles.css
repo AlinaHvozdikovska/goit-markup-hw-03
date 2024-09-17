@@ -69,8 +69,6 @@ img {
 }
 
 .item-nav {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .page-nav,
@@ -81,6 +79,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .page-nav-link:hover,
@@ -180,8 +180,6 @@ img {
   padding-bottom: 120px;
 }
 
-/* Прихований заголовок секції*/
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -193,7 +191,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-  margin-bottom: 8px;
 }
 
 .page-values {
@@ -240,62 +237,17 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-mark-guerrero {
+.container-team {
   padding: 32px 0;
 }
 
-.team-name-guerrero {
+.name-team-title {
   text-align: center;
   margin-top: 32px;
   margin-bottom: 8px;
 }
 
-.text-team-career-guerrero {
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-.team-tom-ford {
-  padding: 32px 0;
-}
-
-.team-name-ford {
-  text-align: center;
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
-
-.text-team-career-ford {
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-.team-camila-garcia {
-  padding: 32px 0;
-}
-
-.team-name-garcia {
-  text-align: center;
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
-
-.text-team-career-garcia {
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-.team-daniel-wilson {
-  padding: 32px 0;
-}
-
-.team-name-wilson {
-  text-align: center;
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
-
-.text-team-career-wilson {
+.text-team-career {
   text-align: center;
   margin-bottom: 32px;
 }
