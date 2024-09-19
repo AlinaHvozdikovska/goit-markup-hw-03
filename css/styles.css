@@ -55,6 +55,7 @@ img {
   flex-direction: row;
   justify-content: space-between;
   background: #fff;
+  align-items: center;
 }
 
 .header-nav {
@@ -71,7 +72,6 @@ img {
 .item-nav {
 }
 
-.page-nav,
 .page-nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -81,6 +81,7 @@ img {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 
 .page-nav-link:hover,
@@ -114,6 +115,7 @@ img {
 .contacts-link {
   font-style: normal;
   font-size: 16px;
+  font-weight: 400;
   /* line-height: 24px; */
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -199,12 +201,7 @@ img {
 }
 
 .values-itm {
-  width: 264px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .page-team {
@@ -233,7 +230,7 @@ img {
 
 .scroll-team {
   background-color: #ffffff;
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -243,13 +240,11 @@ img {
 
 .name-team-title {
   text-align: center;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
 .text-team-career {
   text-align: center;
-  margin-bottom: 32px;
 }
 
 .text {
@@ -297,13 +292,7 @@ img {
 }
 
 .item-portfolio {
-  display: list-item;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: stretch;
-  flex-wrap: wrap;
-  flex-basis: 360px;
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .description-app {
@@ -330,7 +319,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -338,7 +326,6 @@ img {
 .logo-text-vault {
   color: #f4f4fd;
   width: 115px;
-  height: 21px;
 }
 
 .text-vault {
@@ -347,5 +334,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  height: 66px;
 }
